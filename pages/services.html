@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peperritos - El Mejor sitio para Mascotas</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="shortcut icon" href="../assets/Favicon.ico" type="image/x-icon">
+    <style>
+        /* Estilos para el contenedor de las cajas */
+        .box-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+            gap: 20px; /* Espacio entre las cajas */
+            padding: 20px;
+        }
+
+        /* Estilos para cada caja individual */
+        .box {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .box:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Estilos para las imágenes */
+        .box .img img {
+            width: 100%; /* Asegura que la imagen se ajuste al ancho de la caja */
+            height: auto; /* Mantiene la proporción de la imagen */
+            max-height: 600px; /* Limita la altura máxima de la imagen */
+            object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html" class="logo"><i class="fa-solid fa-paw"></i>Adopcion<span>Mascotas</span></a>
+        <nav class="navbar">
+            <a href="../index.html">Inicio</a>
+            <a href="../pages/services.html">Servicios</a>
+            <a href="../pages/pricing.html">Precios</a>
+            <a href="../pages/about.html">Sobre Nosotros</a>
+            <a href="../pages/contact.html">Contáctanos</a>
+        </nav>
+        <i id="menu-btn" class="fas fa-bars"></i>
+    </header>
+
+    <!-- Sección de Información del Servicio -->
+    <section class="service-info">
+        <div class="service-content">
+            <div class="img">
+                <img src="../assets/Pet1.png" alt="Imagen de mascota">
+            </div>
+            <div class="content">
+                <h3>Las Mascotas Son Nuestros Mejores Amigos</h3>
+                <p>Ellos nunca hablan de sí mismos, pero te escuchan cuando hablas de ti y siempre parecen interesados en la conversación.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Animales en Adopción -->
+    <section class="adoption-info">
+        <h1 class="heading">Animales en Adopción</h1>
+        <div class="box-container">
+            <!-- Primer Animal en Adopción -->
+            <div class="box">
+                <div class="img">
+                    <img src="C:\Users\ALBERT\Desktop\PetCare\PetCare\assets\Dog1.jpeg" alt="Perro en adopción">
+                </div>
+                <h3>Antonio</h3>
+                <ul class="characteristics">
+                    <li><strong>Especie:</strong> Perro</li>
+                    <li><strong>Color:</strong> Marrón y Blanco</li>
+                    <li><strong>Edad:</strong> 9 meses</li>
+                    <li><strong>Esterilizado:</strong> NO</li>
+                    <li><strong>Defectos:</strong> Ninguno</li>
+                    <li><strong>Personalidad:</strong> Juguetón y amigable</li>
+                </ul>
+                <a href="requisitos-adopcion.html" class="btn">Requisitos de Adopción</a>
+            </div>
+            
+            <!-- Segundo Animal en Adopción -->
+            <div class="box">
+                <div class="img">
+                    <img src="C:\Users\ALBERT\Desktop\PetCare\PetCare\assets\Dog2.jpeg" alt="Perro en adopción">
+                </div>
+                <h3>Kerrison</h3>
+                <ul class="characteristics">
+                    <li><strong>Especie:</strong> Perro</li>
+                    <li><strong>Color:</strong> Blanco con manchas cafe</li>
+                    <li><strong>Edad:</strong> 5 o 6 meses</li>
+                    <li><strong>Esterilizada:</strong> NO</li>
+                    <li><strong>Defectos:</strong> Está perdiendo el sentido de la vista</li>
+                    <li><strong>Personalidad:</strong> Juguetona y cariñosa</li>
+                </ul>
+                <a href="requisitos-adopcion.html" class="btn">Requisitos de Adopción</a>
+            </div>
+
+            <!-- Tercer Animal en Adopción -->
+            <div class="box">
+                <div class="img">
+                    <img src="C:\Users\ALBERT\Desktop\PetCare\PetCare\assets\Dog3.jpeg" alt="Perro en adopción">
+                </div>
+                <h3>Luna</h3>
+                <ul class="characteristics">
+                    <li><strong>Especie:</strong> Perro</li>
+                    <li><strong>Color:</strong> Blanco</li>
+                    <li><strong>Edad:</strong> 2 años</li>
+                    <li><strong>Esterilizada:</strong> SI</li>
+                    <li><strong>Personalidad:</strong> Educada y cariñosa</li>
+                </ul>
+                <a href="requisitos-adopcion.html" class="btn">Requisitos de Adopción</a>
+            </div>
+
+            <!-- Cuarto Animal en Adopción -->
+            <div class="box">
+                <div class="img">
+                    <img src="C:\Users\ALBERT\Desktop\PetCare\PetCare\assets\Dog4.jpeg" alt="Perro en adopción">
+                </div>
+                <h3>Mila</h3>
+                <ul class="characteristics">
+                    <li><strong>Especie:</strong> Perro</li>
+                    <li><strong>Color:</strong> Plomo con manchas negras</li>
+                    <li><strong>Edad:</strong> 3 meses</li>
+                    <li><strong>Esterilizada:</strong> NO</li>
+                    <li><strong>Personalidad:</strong> Curiosa y juguetona</li>
+                </ul>
+                <a href="requisitos-adopcion.html" class="btn">Requisitos de Adopción</a>
+            </div>
+
+            <!-- Quinto Animal en Adopción -->
+            <div class="box">
+                <div class="img">
+                    <img src="C:\Users\ALBERT\Desktop\PetCare\PetCare\assets\Cat1.jpeg" alt="Gato en adopción">
+                </div>
+                <h3>Estrellita</h3>
+                <ul class="characteristics">
+                    <li><strong>Especie:</strong> Gato</li>
+                    <li><strong>Color:</strong> Gris con blanco</li>
+                    <li><strong>Edad:</strong> 1 año y medio</li>
+                    <li><strong>Esterilizada:</strong> SI</li>
+                    <li><strong>Personalidad:</strong> Arisca</li>
+                </ul>
+                <a href="requisitos-adopcion.html" class="btn">Requisitos de Adopción</a>
+            </div>
+
+            <!-- Sexto Animal en Adopción -->
+            <div class="box">
+                <div class="img">
+                    <img src="C:\Users\ALBERT\Desktop\PetCare\PetCare\assets\Cat2.jpeg" alt="Gato en adopción">
+                </div>
+                <h3>Haru</h3>
+                <ul class="characteristics">
+                    <li><strong>Especie:</strong> Gato</li>
+                    <li><strong>Color:</strong> Blanco con manchas cafes</li>
+                    <li><strong>Edad:</strong> 7 meses</li>
+                    <li><strong>Esterilizado:</strong> SI</li>
+                    <li><strong>Defectos:</strong> Cojera en la pata trasera</li>
+                    <li><strong>Personalidad:</strong> Súper cariñoso</li>
+                </ul>
+                <a href="requisitos-adopcion.html" class="btn">Requisitos de Adopción</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Pie de Página -->
+    <section class="footer">
+        <div class="footer-content">
+            <h3><i class="fa-solid fa-paw"></i>Pet<span>Cuidado</span></h3>
+            <p>PetCuidado es una tienda dedicada al cuidado de mascotas, donde ofrecemos instalaciones y diversos tratamientos útiles. Ofrecemos masajes, un buen terreno, personal experto, excelentes instalaciones y mucho más. ¡Visítanos en cualquier momento! Solo estamos cerrados los jueves.</p>
+        </div>
+    </section>
+</body>
+</html>
